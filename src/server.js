@@ -16,7 +16,7 @@ app.disable('x-powered-by');
 
 app.use(providerRouter);
 
-const port = process.env.PORT || '';
+const port = process.env.PORT || 4000;
 
 app.listen(port, () => {
     console.log(`\nServidor sendo executado na porta: ${port} \n\nEndereço local: http://localhost:${port}`);
