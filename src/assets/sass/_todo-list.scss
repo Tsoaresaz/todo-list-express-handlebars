@@ -1,0 +1,79 @@
+.c-todolist {
+    max-width: toRem(760);
+    margin: toRem(20) auto;
+    background-color: var(--dark-12);
+    border-radius: toRem(5);
+
+    &__action {
+        display: flex;
+        justify-content: flex-end;
+        padding: 2%;
+    }
+
+    &__body {
+        padding: toRem(40) 2%;
+    }
+}
+
+.c-list {
+
+    &__item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: toRem(17) 0;
+        padding: toRem(20) toRem(15);
+        background-color: var(--dark-0a);
+        box-shadow: 0 0 7px rgba(255,255,230,0.1);
+        border-radius: toRem(5);
+
+        &__label {
+            color: var(--white-e1);
+            flex-grow: 3;
+        }
+
+        &__action {
+            display: flex;
+            justify-content: flex-end;
+            flex-grow: 0.5;
+            gap: toRem(10);
+        }
+    }
+}
+
+.c-register {
+    max-width: toRem(760);
+    margin: toRem(20) auto;
+    background-color: var(--dark-12);
+    border-radius: toRem(5);
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2%;
+
+        &__title {
+        }
+
+        &__button {
+            text-transform: lowercase;
+        }
+    }
+
+
+    &__form{
+        padding: toRem(40) 2%;
+    }
+}
+
+.c-form {
+
+    &__input {
+        width: 80%;
+        color: var(--white);
+        border: none;
+        padding: toRem(7) toRem(10);
+        background-color: var(--dark-24);
+    }
+}

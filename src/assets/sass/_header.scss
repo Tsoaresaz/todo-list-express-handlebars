@@ -1,0 +1,11 @@
+.c-header {
+    display: flex;
+    align-items: center;
+    height: toRem(64);
+    padding: 0 5%;
+    background-color: var(--dark-12);
+
+    &__logo {
+        font-size: toRem(18);
+    }
+}

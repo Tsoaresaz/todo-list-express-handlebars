@@ -1,0 +1,22 @@
+<div class="c-todolist">
+    <div class="c-todolist__action">
+        <a href="/new-list" class="c-button c-button__primary">Novo</a>
+    </div>
+
+    <hr class="c-separate">
+
+    <div class="c-todolist__body">
+        <ul class="c-list">
+            {{#each body}}
+            <li class="c-list__item">
+                <div class="c-list__item__label">
+                    {{this.name}}
+                </div>
+                <div class="c-list__item__action">
+                    <a href="/delete-task/{{this.id}}" class="c-button c-button__primary">Deletar</a>
+                </div>
+            </li>
+            {{/each}}
+        </ul>
+    </div>
+</div>

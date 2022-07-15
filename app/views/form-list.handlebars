@@ -1,0 +1,14 @@
+<div class="c-register">
+    <div class="c-register__header">
+        <h3 class="c-register__header__title">{{page.title}}</h3>
+        <a href="/todo-list" class="c-button c-button__default c-register__header__button">voltar</a>
+    </div>
+    <hr class="c-separate">
+
+    <div class="c-register__form">
+        <form action="/new-list" method="POST" class="c-form">
+            <input type="text" class="c-form__input" name="task" id="task">
+            <button type="submit" class="c-button c-button__primary">Cadastrar</button>
+        </form>
+    </div>
+</div>

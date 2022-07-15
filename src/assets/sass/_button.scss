@@ -1,0 +1,19 @@
+.c-button {
+    width: fit-content;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: toRem(5);
+
+    &__default {
+        padding: 1% 2%;
+        color: var(--white);
+        background-color: var(--dark-24);
+    }
+
+    &__primary {
+        padding: 1% 5%;
+        color: var(--white);
+        background-color: var(--blue-48);
+    }
+}

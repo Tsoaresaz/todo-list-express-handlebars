@@ -1,0 +1,11 @@
+.c-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: toRem(10) 0;
+    color: var(--dark-24);
+    font-weight: bold;
+    text-align: center;
+    background-color: var(--dark-12);
+    z-index: 9;
+}
