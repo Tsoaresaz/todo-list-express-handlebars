@@ -3,13 +3,20 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
-    "start": "node src/server.js",
-    "build": "node src/server.js",
+    "start": "node index.js",
+    "build": "node index.js",
     "dev": "nodemon src/server.js",
     "gulp-dev": "gulp config/gulpfile.js"
   },
-  "keywords": [],
+  "keywords": [
+    "node",
+    "express",
+    "handlebars"
+  ],
   "author": "Thiago Soares",
   "license": "ISC",
   "dependencies": {
@@ -23,5 +30,9 @@
     "gulp-sass": "^5.1.0",
     "nodemon": "^2.0.19",
     "sass": "^1.53.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tsoaresaz/todo-list-express-handlebars"
   }
 }
