@@ -21,3 +21,5 @@ const port = process.env.PORT || '';
 app.listen(port, () => {
     console.log(`\nServidor sendo executado na porta: ${port} \n\nEndereço local: http://localhost:${port}`);
 })
+
+module.exports = app;
