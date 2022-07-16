@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 handlebars_wrapper(app);
-app.use(express.static('src/assets'));
+app.use('/static', express.static('src/assets'));
 
 app.disable('x-powered-by');
 
