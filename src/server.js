@@ -11,8 +11,8 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 handlebars_wrapper(app);
-app.use(express.static('src/assets/css'));
-app.use(express.static('src/assets/js'));
+app.use(express.static('src/assets'));
+
 app.disable('x-powered-by');
 
 app.use(providerRouter);
