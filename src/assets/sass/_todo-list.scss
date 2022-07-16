@@ -76,4 +76,19 @@
         padding: toRem(7) toRem(10);
         background-color: var(--dark-24);
     }
+
+    @media (max-width: 520px) {
+        &__input {
+            width: 100%;
+            padding: toRem(15) toRem(12);
+            font-size: toRem(22);
+        }
+
+        &__button {
+            display: block;
+            width: 100%;
+            padding: toRem(15) 0;
+            margin-top: toRem(10);
+        }
+    }
 }
